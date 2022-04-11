@@ -1,0 +1,25 @@
+.NotFound .flex{
+  display: flex;
+  justify-content: center;
+}
+
+.NotFound{
+margin-top: 30vh;
+}
+
+.NotFound h1{
+  font-size: 104px;
+  color: #f2ec54;
+}
+
+.NotFound p{
+  margin-top: 0px;
+  font-size: 24px;
+  color: #f2ec54;
+}
+
+.NotFound img{
+ position: absolute;
+ left: 20px;
+ bottom: 20px;
+}

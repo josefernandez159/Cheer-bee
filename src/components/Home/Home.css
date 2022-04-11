@@ -1,0 +1,111 @@
+.bg-color{
+  background-color: #f2ec54;
+}
+
+.txtHome{
+  font-size: 14px;
+}
+
+.inputName{
+  position:absolute;
+		left:50%;
+		top:50%;
+    transform: translate(-50%, -50%);
+
+}
+
+input{
+     display: block;
+}
+.namePerson{
+padding: 10px 50px;
+border:  none;
+border-radius: 5px;
+margin-bottom: 15px;
+}
+
+.overEighteen{
+  display:flex;
+  align-items: center ;
+  justify-content: center;
+}
+.overEighteen input{
+ 
+  width: 16px;
+  height: 16px; 
+  margin-right: 10px;
+}
+
+
+.overEighteen input{
+
+display: flex;
+}
+
+
+.beeImg{
+  margin-top: 550px;
+}
+.beeImg #bee{  
+     position: absolute;
+     bottom: 0px;
+     left: 20px;
+     
+}
+
+.Inputs .btnHome{
+  display: flex;
+  justify-content: center;
+}
+
+/* responsive layout*/
+/*small phone*/
+@media (max-width: 400px) {
+  .beeImg { 
+   position: absolute;
+   right: 10px;
+   justify-content: center;
+  }
+  .beeImg img{  
+    display: none;
+    position: absolute;
+   right: 10px;
+}
+}
+
+/*medium phone && tablet*/
+
+@media (max-width: 500px) {
+  .beeImg { 
+   position: absolute;
+   bottom: 5px;
+   left: 6vh;
+  }
+  
+  .inputName{
+    position:absolute;
+      left:50%;
+      top:40%;
+      transform: translate(-50%, -50%);
+  
+  }
+}
+
+/*button enter*/
+
+.buttonEnter{
+  padding: 10px 20px;
+  background: #5d5fef;
+  box-shadow: none;
+  border:  none;
+  border-radius: 5px;
+  margin-top: 15px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.buttonEnter:disabled{
+  color: #ffffff;
+  background-color: #52525B;
+}

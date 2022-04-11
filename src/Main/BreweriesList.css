@@ -1,0 +1,77 @@
+
+.apiContents{
+  display: inline-flex;
+  flex-wrap: wrap;
+justify-content: center;
+margin-top: 50px;
+}
+
+
+.api {  
+  
+  padding: 10px 10px 70px 10px;
+  border-radius: 5px;
+  width: 60vh;
+  border: 1px solid black;
+  margin: 5px 10px 30px 20px;
+}
+
+.fa-trash{
+  position: relative;
+  left: 55vh;
+}
+.tagsDiv{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px; 
+}
+
+.tag1{
+  grid-area: 2 / 1 / 3 / 2;
+}
+.tag2{
+  grid-area: 2 / 2 / 3 / 3;
+}
+.tag3{
+  grid-area: 3 / 1 / 4 / 2;
+}
+.tag4{
+  grid-area: 3 / 2 / 4 / 3; 
+}
+
+.tagsFlex{
+  display: flex;
+  justify-content: center;
+}
+
+.tag{
+  justify-content: center;
+  display: inline-flex;
+  border-radius: 10px;
+  padding: 2px 20px;
+  background-color: #f2ec54;
+  margin: 5px;
+  
+}
+
+.tag:hover{
+ background-color: aquamarine;
+  
+}
+
+.fa-trash{
+  cursor: pointer;
+}
+.iconTag{
+  position: relative;
+  top: 3px;
+  margin-right: 5px;
+}
+
+
+
+.inputNewTag{
+  display: none;
+}

@@ -1,0 +1,51 @@
+
+
+.header{
+  display: flex;
+  justify-content: space-between;
+  background-color: #f2ec54;
+  padding: 1vh;
+}
+
+/* Back text class */
+
+.goBack{
+  margin-left: 20px;
+}
+
+.textHeader{
+  font-size: 30px;
+  color: #000000;
+}
+
+a{
+  text-decoration: none;
+}
+
+.headerPerson span::first-letter{
+text-transform: uppercase;
+}
+
+@media (max-width: 500px) {
+  .goBack { 
+    display: none;
+  }
+  .header{
+    display: flex;
+    padding: -1vh 15055vh;
+    width: 100%;
+    position: fixed;
+    z-index: 1000;
+    margin-bottom: 5px;
+  }
+  
+
+  .headerReturn div{
+    position: absolute;
+    left: 20px;
+    top: 15px;
+  }
+
+
+
+}
