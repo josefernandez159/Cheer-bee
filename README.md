@@ -7,7 +7,7 @@
 
 [![Project Preview](https://uploaddeimagens.com.br/images/003/821/752/full/cheer_bee.png?1649659645)](https://cheer-bee.vercel.app/)
 
-## Go to the website
+## Click on the image and go to the website
 
   I developed this system in two days, in order to solve a problem, I used front-end techniques with the help of a 'figma' of the entire project
 
