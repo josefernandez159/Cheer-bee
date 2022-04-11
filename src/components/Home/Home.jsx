@@ -27,7 +27,6 @@ function checkInputs(inputs) {
   return filled;
   
 }
-module.exports = {checkInputs}
 
 var inputs = document.querySelectorAll("input");
 var button = document.querySelector("button");
