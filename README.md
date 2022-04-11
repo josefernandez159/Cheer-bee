@@ -57,8 +57,6 @@ yarn install or npm install
 yarn start  or npm start
 ```
 
-// I sent it with all the dependencies to make it easier.
-
 ## :heavy_check_mark: Step completed 
 
 -   [x] Consume api openbrewerydb
