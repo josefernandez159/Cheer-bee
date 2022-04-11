@@ -3,7 +3,11 @@
 ## :eyeglasses: Project Preview
 
 
-[![Project Preview]()]()
+
+
+[![Project Preview](https://uploaddeimagens.com.br/images/003/821/752/full/cheer_bee.png?1649659645)](https://cheer-bee.vercel.app/)
+
+## Go to the website
 
   I developed this system in two days, in order to solve a problem, I used front-end techniques with the help of a 'figma' of the entire project
 
@@ -12,7 +16,10 @@
 ![Badge](https://img.shields.io/badge/Axios-0.18.0-%23072000?style=for-the-badge&logo=appveyor)
 ![Badge](https://img.shields.io/badge/react--router-4.2.0-%23072000?style=for-the-badge&logo=appveyor)
 ![Badge](https://img.shields.io/badge/react-16.4.0-%23000000?style=for-the-badge&logo=appveyor)
-![Badge]()
+![Badge](https://img.shields.io/badge/Typescript-4.6.3-black?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Jest-27.5.1-black?style=for-the-badge&logo=appveyor)
+![Badge](https://img.shields.io/badge/Jest-27.5.1-black?style=for-the-badge&logo=appveyor)
+
 ## :dart: Goals
 
 The objective of this project was to create an area with two screens, where on the first page there would be an 'input' where the user would put his name, and an 'input' of a 'checklist' to inform if the user was in legal age, with both 'inputs', would enable the option to enter, where beer users will be able to check the names and data around the world, this data was taken from an 'API'.
@@ -45,7 +52,7 @@ git clone https://github.com/josefernandez159/Cheer-bee.git
 ```
 ➡️ **Accessing the project folder**
 ```bash
-cd cheer-bee
+cd Cheer-bee
 ```
 
 ➡️ **Installing Dependencies**
@@ -62,3 +69,4 @@ yarn start  or npm start
 -   [x] Consume api openbrewerydb
 -   [x] Create all functions
 -   [x] responsibility, all devices.
+-   [x] GlobalState and localStorage.
